@@ -1,30 +1,31 @@
 <!doctype html>
 <html lang="fr">
 <head>
+	<!--Ajout de mots clés, rédaction de la balise meta description, ainsi que l'ajout de la balise robots pour le suivi des moteurs de recherches-->
     <meta charset="utf-8">
     <meta name="keywords" content="Entreprise de webdesign à lyon, Agence webdesign à lyon">
     <meta name="description" content="Ici votre entreprise de webdesign basée à lyon , vous accompagne dans la conception personnalisée de votre design web">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="robotos" content="follow">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	
+    <!--Utilisation de rel='preload' pour ne pas bloquer le chargement de la page-->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="print" onload="this.media='all'; this.onload=null;">
 	<link rel="stylesheet" type="text/css" href="style.css" media="print" onload="this.media='all'; this.onload=null;">
 	<link rel="preload" href="./css/font-awesome.css" as="style" onload="this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="./css/font-awesome.css"></noscript>
-
 	<link rel="preload" href="./css/et-line.css" as="style" onload="this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="./css/et-line.css"></noscript>
 
 
 
-    
+    <!--Utilisation de defer pour différer l'éxécution des scripts-->
 	<script defer src="./js/jquery-2.1.0.js"></script>
 	<script defer src="./js/jquery.touchSwipe.js"></script>
 	<script defer src="./js/bootstrap.js"></script>
 	<script defer src="./js/blocs.js"></script>
 	<script defer src="./js/gmaps.js"></script>
-
+<!--Ecriture du titre à la place du point-->
 	<title>la-chouette-agence</title>
 
     
@@ -35,7 +36,8 @@
 </head>
 <body>
 <!-- Principal conteneur -->
-<div class="page-container">
+<!--ajout de la balise main pour le contenu de la page-->
+<main class="page-container">
     
 <!-- bloc-0 -->
 <header class="bloc bgc-white l-bloc " id="bloc-0">
@@ -56,6 +58,7 @@
 					<li>
 					</li>
 					<li>
+						<!---modification du lien page2.html par contact.html-->
 						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
@@ -88,17 +91,20 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
+				<!--replacement de l'image par une balise h2-->
 				<h2>
 					La chouette agence webdesign est une entreprise qui aide <br>
-					les entreprises à devenir attractives et visibles sur le internet.
+					les entreprises à devenir attractives et visibles sur internet.
 				</h2>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
+			<!--replacement des titres h3 par des balises h2-->
 			<article class="col-sm-4">
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
+				
 				<h2 class="mg-md text-center">
 					Web design
 				</h2>
@@ -130,18 +136,19 @@
 			</article>
 		</div>
 		<div class="row voffset-lg voffset">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                 <blockquote>
-					 <p>
-						 "La chouette agence est une excellente entreprise de webdesign! <br>
-						 Les webs designers ont réussi à capturer l'essence de notre entreprise <br>
-						 et à l'intégrer à notre site. Cela nous à doubler nos ventes en ligne à lyon." 
-					 </p>
-					 <cite>Maxime Guibart, PDG de A vos fourchettes</cite>
-				 </blockquote>
+			    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+				    <!--Ajout de la balise blockquote à la place de l'image-->
+                    <blockquote>
+						<p>
+							"La chouette agence est une excellente entreprise de webdesign! <br>
+							Les webs designers ont réussi à capturer l'essence de notre entreprise <br>
+							et à l'intégrer à notre site. Cela nous à doubler nos ventes en ligne à lyon." 
+						</p>
+						<cite>Maxime Guibart, PDG de A vos fourchettes</cite>
+				    </blockquote>
 				
 
-			</div>
+			    </div>
 		</div>
 	</div>
 </section>
@@ -175,6 +182,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class=" article-photo col-sm-6">
+				<!--redimenssion et compression de l'image-->
 				<a href="#" data-lightbox="img/1-1-palettes.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1-1-palettes-min.jpg" alt="images de palettes de couleurs" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
@@ -184,6 +192,7 @@
 				</p>
 			</article>
 			<article class="article-photo col-sm-6">
+				<!--redimenssion et compression de l'image-->
 				<a href="#" data-lightbox="img/2-2-photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2-2-photographe-min.jpg" class="img-responsive portfolio-thumb" alt="une jeune femme qui prend une photo dans la rue le soir" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
@@ -195,6 +204,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="article-photo col-sm-6">
+				<!--redimenssion et compression de l'image-->
 				<a href="#" data-lightbox="img/3-3-materiels-photos-(1)-min.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3-3-materiels-photos-(1)-min.jpg" class="img-responsive portfolio-thumb" alt="plusieurs appareils et accessoires pour prendre des photos et faire des vidéos"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
@@ -204,6 +214,7 @@
 				</p>
 			</article>
 			<article class="article-photo col-sm-6">
+				<!--redimenssion et compression de l'image-->
 				<a href="#" data-lightbox="img/4-4-dev-work.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4-4-dev-work--min.jpg" class="img-responsive portfolio-thumb" alt="un designer web qui travaille sur son ordinateur avec une tasse de café à ses côté" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
@@ -233,8 +244,9 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<footer class="container bloc-sm">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+	<!--suppression des liens spammy et d'aria-label aria-hidden et title pour les icones-->
+	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center para">
@@ -266,11 +278,11 @@
 				
 			</div>
 		</div>
-	</footer>
-</div>
+	</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
-</div>
+</main>
 <!-- Principal conteneur END -->
     
 
